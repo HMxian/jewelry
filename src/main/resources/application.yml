@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    cache: false
+    mode: html
+    servlet:
+      content-type: text/html
+  servlet:
+    multipart:
+      # 上传文件大小限制
+      max-file-size: 10MB
+      max-request-size: 100MB
