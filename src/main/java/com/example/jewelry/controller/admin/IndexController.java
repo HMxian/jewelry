@@ -1,14 +1,11 @@
 package com.example.jewelry.controller.admin;
 
-import cn.hutool.Hutool;
-import cn.hutool.json.JSONArray;
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
+@RequestMapping("/admin")
 public class IndexController {
 
     /**
