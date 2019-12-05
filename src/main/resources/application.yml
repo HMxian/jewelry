@@ -11,3 +11,10 @@ spring:
       # 上传文件大小限制
       max-file-size: 10MB
       max-request-size: 100MB
+  datasource:
+    url: jdbc:mysql://localhost:3306/jewelry?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 12345679
+
+  jpa:
+    show-sql: true
